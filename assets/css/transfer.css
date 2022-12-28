@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Inter Light";
+  src: url(../typefaces/static/Inter-ExtraLight.ttf);
+}
+
+*{
+  font-family:sans-serif;
+}
+
+.header-container{
+  background-color: #ECF1FF;
+  padding: 28px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.253);
+  margin: 0;
+}
+
+.header-container h1{
+  font-size: 50px;
+}
+
+.header-container p{
+  color: rgba(0, 0, 0, 0.432);
+}
+
+.content-container{
+  padding: 28px;
+}
+
+.card-select__container p{ 
+  font-family: "Inter Light";
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.card-detail__container p{
+  font-family: "Inter Light";
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.card-detail__container input{
+  width: 100%;
+  font-size: 20px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+.card-detail__container textarea{
+  width: 100%;
+  height: 80px;
+  margin: 10px 0;
+}
+
+.card-select__container select{
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+}
+
+.btn-container{
+  padding: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container button{
+  padding: 18px 50px;
+  font-size: 25px;
+  color: #fff;
+  background-color:#1865FC;
+  border: 0;
+  border-radius: 10px;
+}
